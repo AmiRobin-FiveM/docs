@@ -1,0 +1,81 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1a1c2d 0%, #2a2d4a 100%);
+  color: white;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.showcaseSection {
+  padding: 4rem 0;
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.featureList li {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: var(--ifm-color-emphasis-0);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.featureList li:hover {
+  transform: translateY(-2px);
+}
+
+.updateList {
+  margin: 2rem 0;
+}
+
+.update {
+  padding: 1rem;
+  margin: 1rem 0;
+  background: var(--ifm-color-emphasis-0);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.updateDate {
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Dark mode enhancements */
+[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, #1a1c2d 0%, #2a2d4a 100%);
+}
+
+[data-theme='dark'] .featureList li,
+[data-theme='dark'] .update {
+  background: var(--ifm-color-emphasis-100);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
