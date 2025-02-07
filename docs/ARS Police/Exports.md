@@ -1,42 +1,54 @@
-intergation with other scripts
+---
+sidebar_position: 4
+---
 
-to use the search player function
+## Integration with Other Scripts
+
+### Player Search Function
+To use the player search function, utilize the following code:
+
 ```lua
 exports['ars_police']:SearchPlayer(player)
 ```
 
-Clinet side function to check if player is cuffed
+### Checking If a Player is Cuffed (Client-Side)
+To verify if a player is cuffed on the client side, use:
 
 ```lua
 exports["ars_police"]:IsHandcuffed()
 ```
 
-for server side functions
+### Checking If a Player is Cuffed (Server-Side)
+For server-side functions, check if a player is cuffed with:
 
 ```lua
 exports['ars_police']:IsHandcuffed(source)
 ```
 
-to find our how many cops are online server side
+### Checking Number of Cops Online (Server-Side)
+To find out how many cops are online on the server side, use the following functions:
 
 ```lua
-exports["ars_police"]:NumberOfPoliceOnline() -- optemized
-exports["ars_police"]:GetPoliceOnline() -- not optemized
+exports["ars_police"]:NumberOfPoliceOnline() -- optimized
+exports["ars_police"]:GetPoliceOnline() -- not optimized
 ```
 
-to escort a player client side
+### Escorting a Player (Client-Side)
+To escort a player on the client side, execute:
 
 ```lua 
-exports["ars_police"]:EscortPlayer(targerId)
+exports["ars_police"]:EscortPlayer(targetId)
 ```
 
-to carry or kidnap a player client side
+### Kidnapping a Player (Client-Side)
+To carry or kidnap a player on the client side, use:
 
 ```lua
 exports["ars_police"]:KidnapPlayer()
 ```
 
-Clint side open jail menu with all closed player
+### Opening Jail Menu with All Closed Players (Client-Side)
+To open the jail menu with all closed players, use:
 
 ```lua
 exports['ars_police']:JailDialog()

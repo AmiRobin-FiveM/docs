@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Introduction
 
 Get ready for an adrenaline-pumping experience like never before in your role as a law enforcement officer or a cunning criminal! We've pulled out all the stops to bring you an immersive world filled with thrilling features, based on feedback from our incredible community. From epic arrest showdowns and dramatic tackles to a wide range of law enforcement departments and jaw-dropping animations and props, the ARS Police System is the must-have resource for your server.
