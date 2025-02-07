@@ -44,7 +44,7 @@ export default function Home(): JSX.Element {
                 <Heading as="h2">Why Choose Our Scripts?</Heading>
                 <ul className={styles.featureList}>
                   <li>✨ Regular updates and new features</li>
-                  <li>🔧 Full source code access</li>
+                  <li>🔧 Full configurable scripts</li>
                   <li>📚 Comprehensive documentation</li>
                   <li>🛠️ Easy installation process</li>
                   <li>💬 Active community support</li>

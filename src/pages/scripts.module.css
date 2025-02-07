@@ -1,0 +1,103 @@
+.scriptsHeader {
+  padding: 4rem 0;
+  text-align: center;
+  background: linear-gradient(135deg, #1a1c2d 0%, #2a2d4a 100%);
+  color: var(--ifm-color-white);
+}
+
+.scriptsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.scriptCard {
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--ifm-color-emphasis-0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.scriptCard:hover {
+  transform: translateY(-4px);
+}
+
+.scriptImage {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.scriptImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scriptContent {
+  padding: 1.5rem;
+}
+
+.scriptTitle {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.scriptDescription {
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.scriptFeatures {
+  margin-bottom: 1.5rem;
+}
+
+.scriptFeatures h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.scriptFeatures ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.scriptFeatures li {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.scriptFeatures li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary);
+}
+
+.scriptFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.scriptPrice {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+}
+
+/* Dark mode enhancements */
+[data-theme='dark'] .scriptCard {
+  background: var(--ifm-color-emphasis-100);
+}
+
+[data-theme='dark'] .scriptDescription {
+  color: var(--ifm-color-emphasis-600);
+}

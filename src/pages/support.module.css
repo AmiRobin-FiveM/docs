@@ -1,0 +1,205 @@
+.supportHeader {
+  padding: 6rem 0;
+  text-align: center;
+  background: linear-gradient(135deg, #1a1c2d 0%, #2a2d4a 100%);
+  color: var(--ifm-color-white);
+  margin-bottom: 2rem;
+}
+
+.headerSubtitle {
+  font-size: 1.5rem;
+  opacity: 0.9;
+  margin: 1rem 0 0;
+}
+
+.supportContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Discord Section */
+.discordSection {
+  margin-bottom: 4rem;
+}
+
+.discordCard {
+  background: var(--ifm-color-emphasis-0);
+  border-radius: 16px;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.discordCard:hover {
+  transform: translateY(-5px);
+}
+
+.discordLogo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 2rem;
+}
+
+.discordDescription {
+  font-size: 1.2rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 1.5rem 0;
+}
+
+.discordButton {
+  display: inline-block;
+  background: #5865F2;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.discordButton:hover {
+  background: #4752C4;
+  color: white;
+  text-decoration: none;
+}
+
+/* Process Section */
+.supportProcess {
+  margin-bottom: 4rem;
+}
+
+.processCard {
+  background: var(--ifm-color-emphasis-0);
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.processStep {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.stepIcon {
+  width: 48px;
+  height: 48px;
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1.5rem;
+  flex-shrink: 0;
+}
+
+.stepContent {
+  flex: 1;
+}
+
+.stepContent h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: var(--ifm-color-primary);
+}
+
+.stepContent p {
+  margin: 0.5rem 0 0;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.processArrow {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--ifm-color-primary);
+  margin: 1rem 0;
+}
+
+/* Info Section */
+.supportInfo {
+  margin-bottom: 4rem;
+}
+
+.infoCard {
+  background: var(--ifm-color-emphasis-0);
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.infoCard h2 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1.5rem;
+}
+
+.infoCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.infoCard li {
+  margin: 1rem 0;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.infoCard li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary);
+  font-weight: bold;
+}
+
+.supportNote {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+/* Dark mode enhancements */
+[data-theme='dark'] .discordCard,
+[data-theme='dark'] .processCard,
+[data-theme='dark'] .infoCard {
+  background: var(--ifm-color-emphasis-100);
+}
+
+[data-theme='dark'] .supportNote {
+  background: var(--ifm-color-emphasis-200);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .supportHeader {
+    padding: 4rem 0;
+  }
+
+  .headerSubtitle {
+    font-size: 1.2rem;
+  }
+
+  .discordCard,
+  .processCard,
+  .infoCard {
+    padding: 2rem;
+  }
+
+  .discordLogo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .discordButton {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+}
