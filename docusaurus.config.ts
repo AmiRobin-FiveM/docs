@@ -10,14 +10,14 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.amirobin.dev',
+  url: 'https://docs.amirobin.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'AmiRobin', // Usually your GitHub org/user name.
+  organizationName: 'AamiRobin', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
@@ -71,7 +71,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'AmiRobin Dev',
+      title: 'AmiRobin Development',
       logo: {
         alt: 'AmiRobin Logo',
         src: 'img/logo.svg',
@@ -95,7 +95,7 @@ const config: Config = {
           position: 'left'
         },
         {
-          href: 'https://github.com/amirobin',
+          href: 'https://github.com/aamirobin',
           label: 'GitHub',
           position: 'right',
         },
@@ -126,7 +126,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/amirobin',
+              href: 'https://github.com/aamirobin',
             },
           ],
         },
@@ -139,7 +139,7 @@ const config: Config = {
             },
             {
               label: 'FiveM Forum',
-              href: 'https://forum.cfx.re',
+              href: 'https://forum.cfx.re/u/amirobin/',
             },
           ],
         },

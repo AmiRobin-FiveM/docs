@@ -23,7 +23,7 @@ export default function Support(): JSX.Element {
           <div className={styles.discordSection}>
             <div className={styles.discordCard}>
               <img 
-                src="/img/discord-logo.png" 
+                src="https://brandlogos.net/wp-content/uploads/2021/11/discord-logo-768x768.png" 
                 alt="Discord Logo" 
                 className={styles.discordLogo}
               />
@@ -77,7 +77,7 @@ export default function Support(): JSX.Element {
               <Heading as="h2">Support Hours</Heading>
               <p>Our team is available 24/7 to help you with:</p>
               <ul>
-                <li>Script installation</li>
+                <li>Script installation issues</li>
                 <li>Configuration issues</li>
                 <li>Technical problems</li>
                 <li>General questions</li>
