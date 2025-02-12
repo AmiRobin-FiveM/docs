@@ -95,7 +95,7 @@ const config: Config = {
           position: 'left'
         },
         {
-          href: 'https://github.com/aamirobin',
+          href: 'https://github.com/AmiRobin-FiveM',
           label: 'GitHub',
           position: 'right',
         },
@@ -126,7 +126,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/aamirobin',
+              href: 'https://github.com/AmiRobin-FiveM',
             },
           ],
         },

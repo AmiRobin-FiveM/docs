@@ -204,35 +204,6 @@ local function RemoveItem(source, item, amount, slot)
 end
 ```
 
-### codem-inventory for esx or qb-core
-
-**Path:** `codem-inventory\editable\serverexport.lua`
-
-**Action:** Find the `RemoveItem` function and add this code :
-
-```lua
-    if Config.Framework == 'esx' then
-        TriggerClientEvent('esx:removeInventoryItem', src, itemname, count) -- for ESX
-    elseif Config.Framework == 'qb' then
-        TriggerClientEvent('QBCore:Client:OnRemoveInventoryItem', src, itemname, count) -- for QBCore
-    end
-```
-
-it will look like this :
-
-````lua
- if not amount then
-        amount = 1
-    end
-    amount = tonumber(amount)
-    if Config.Framework == 'esx' then
-        TriggerClientEvent('esx:removeInventoryItem', src, itemname, count)             -- for ESX
-    elseif Config.Framework == 'qb' then
-        TriggerClientEvent('QBCore:Client:OnRemoveInventoryItem', src, itemname, count) -- for QBCore
-    end
-    if slot then
-    ```
-
 ## Support
 
 Need help with ARS ICLOTHING? Join our Discord community: [AMIROBIN DEV](https://discord.gg/vcJ6QZCpc3)
