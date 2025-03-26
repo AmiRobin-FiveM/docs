@@ -113,7 +113,7 @@ const config: Config = {
             },
             {
               label: 'Script Installation',
-              to: '/docs/category/installation',
+              to: '/docs/intro',
             },
           ],
         },
@@ -144,7 +144,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright ${new Date().getFullYear()} AmiRobin Development. Built with Docusaurus.`,
+      copyright: `Copyright ${new Date().getFullYear()} AmiRobin Development. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
