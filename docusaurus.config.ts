@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'AmiRobin Development',
   tagline: 'Premium FiveM Scripts for Enhanced Roleplay Experience',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
   url: 'https://docs.amirobin.com',
@@ -17,7 +17,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'AamiRobin', // Usually your GitHub org/user name.
+  organizationName: 'AmiRobin-FiveM', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
@@ -74,8 +74,8 @@ const config: Config = {
       title: 'AmiRobin Development',
       logo: {
         alt: 'AmiRobin Logo',
-        src: 'img/logo.svg',
-        srcDark: 'img/logo-dark.svg',
+        src: 'img/logo.png',
+        srcDark: 'img/logo.png',
       },
       items: [
         {
@@ -122,7 +122,7 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/amirobin',
+              href: 'https://discord.gg/vcJ6QZCpc3',
             },
             {
               label: 'GitHub',
@@ -135,7 +135,7 @@ const config: Config = {
           items: [
             {
               label: 'Tebex Store',
-              href: 'https://store.amirobin.dev',
+              href: 'https://amirobin.tebex.io',
             },
             {
               label: 'FiveM Forum',

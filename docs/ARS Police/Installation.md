@@ -4,40 +4,27 @@ sidebar_position: 2
 
 # Installation
 
-## Guide for the ARS Police System
+## Dependencies
 
-Follow these steps to successfully install the ARS Police System for your FiveM server:
+ARS Police requires the following dependencies:
 
-## Prerequisites
+- [mysql-async] or [oxmysql]
+- [es_extended] or [qbcore]
+- [ox_lib]
 
-- Ensure that you have a FiveM server set up and running.
-- Have access to the server files and the necessary permissions to modify them.
+## Installation
 
-## Installation Steps
+To install ARS Police, follow these steps:
 
-1. **Download the Script**
-
-   - Obtain the ARS Police script from the [TeBex store](https://store.amirobin.dev/ars-police).
-
-2. **Upload the Script to Your Server**
-
-   - Navigate to your server's `server/mods` directory.
-   - Place the downloaded ARS Police script file into the `server/mods` folder.
-
-3. **Update Your Server Configuration**
-
-   - Open your server configuration file (usually `server.cfg`).
-   - Add the following line to ensure the ARS Police script is loaded:
-     ```plaintext
-     start ars_police
-     ```
-
-4. **Restart Your Server**
-
-   - Restart your FiveM server to apply the changes.
-
-5. **Verify Installation**
-   - Once your server is back online, join the server and test the ARS Police features to ensure everything is functioning as expected.
+1. Download the file from Keymaster or CFX Portal.
+2. Unzip the file.
+3. Move the `ars_police` folder into your server's `resources` directory.
+4. Install the SQL file or manually add items to your item Lua file.
+5. Add `ensure ars_police` to your `server.cfg`.
+6. Configure the settings in `config.lua` as needed.
+7. Copy inventory item images to the `images` folder in your inventory directory.
+8. Add items to your items.lua or database from INSTALL ME folder.
+9. Start your server and enjoy!
 
 ## Enjoy!
 
