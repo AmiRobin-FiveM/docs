@@ -84,11 +84,11 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
-        {
-          to: '/scripts',
-          label: 'Scripts',
-          position: 'left'
-        },
+        // {
+        //   to: '/scripts',
+        //   label: 'Scripts',
+        //   position: 'left'
+        // },
         {
           to: '/support',
           label: 'Support',
@@ -97,6 +97,16 @@ const config: Config = {
         {
           href: 'https://github.com/AmiRobin-FiveM',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'https://discord.gg/vcJ6QZCpc3',
+          label: 'Discord',
+          position: 'right',
+        },
+        {
+          href: 'https://amirobin.tebex.io',
+          label: 'Tebex',
           position: 'right',
         },
       ],

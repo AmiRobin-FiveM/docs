@@ -37,7 +37,7 @@ Make your server awesome with our simple and fun jewelry shop system! This cool 
 ---
 
 ### **See It in Action:**
-:clapper: [Watch on YouTube](#) *(https://www.youtube.com/watch?v=e9D4NMhftmQ)*
+:clapper: [Watch on YouTube](#) *(https://www.youtube.com/watch?v=J9bU0P0xRX0)*
 
 ---
 

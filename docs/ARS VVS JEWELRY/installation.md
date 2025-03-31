@@ -64,16 +64,17 @@ You need to execute these SQL files in your database in this order:
    ensure vvsjewelryhandsmale
    ```
 
-### 4. Setting Up ARS iClothes
+### 4. Setting Up ARS iClothing
 
-1. First, locate and read the README.md file in ARS iClothes thoroughly
-2. Complete the basic ARS iClothes installation as per README
-3. From `VVSJEWELRY/INSTALL_ME_FIRST/` folder, copy these files:
+1. First, locate and read the README.md file in ARS iClothing thoroughly
+2. Complete the basic ARS iClothing installation as per README
+3. Download VVSJEWELRY from your CFX Portal
+4. From `VVSJEWELRY/INSTALL_ME_FIRST/` folder, copy these files:
    - chains.lua
    - decals.lua
    - vest.lua
-4. Paste these files into your `ars_iclothing/preset` folder
-5. IMPORTANT: You must adjust the clothing slot numbers in:
+5. Paste these files into your `ars_iclothing/preset` folder
+6. IMPORTANT: You must adjust the clothing slot numbers in:
    - chains.lua
    - decals.lua
    - vest.lua
@@ -109,6 +110,12 @@ For Both Male and Female:
    - Navigate to `ars_iclothing/preset/vest.lua`
    - Find the matching slot numbers in your clothing pack
    - Update the slot numbers accordingly
+
+### Video Installation Guide
+
+For a detailed visual walkthrough of this installation process for  ARS iClothing Slot Numbers, watch our step-by-step video tutorial:
+
+[Installation Tutorial Video](https://youtu.be/TcHHS1prEFw?si=c3MVVkkOr6JXaBdp)
 
 ### Final Configuration
 

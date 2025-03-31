@@ -33,7 +33,7 @@ export default function Support(): JSX.Element {
               </p>
               <Link
                 className={styles.discordButton}
-                to="https://discord.gg/amirobin"
+                to="https://discord.gg/vcJ6QZCpc3"
                 target="_blank">
                 Join Discord Server
               </Link>
